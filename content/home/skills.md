@@ -34,17 +34,17 @@ subtitle = ""
 
 [[feature]]
   icon = "robot"
-  icon_pack = "fab"
+  icon_pack = "fas"
   name = "Machine Learning"
 
 [[feature]]
   icon = "brain"
-  icon_pack = "fab"
+  icon_pack = "fas"
   name = "Artificial Intelligence"
 
 [[feature]]
   icon = "drum"
-  icon_pack = "fab"
+  icon_pack = "fas"
   name = "Drums"
 
 # Uncomment to use emoji icons.
