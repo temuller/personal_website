@@ -29,8 +29,23 @@ subtitle = ""
 [[feature]]
   icon = "linux"
   icon_pack = "fab"
-  name = "Photography"
+  name = "Linux"
 #  description = "10%"
+
+[[feature]]
+  icon = "robot"
+  icon_pack = "fab"
+  name = "Machine Learning"
+
+[[feature]]
+  icon = "brain"
+  icon_pack = "fab"
+  name = "Artificial Intelligence"
+
+[[feature]]
+  icon = "drum"
+  icon_pack = "fab"
+  name = "Drums"
 
 # Uncomment to use emoji icons.
 # [[feature]]

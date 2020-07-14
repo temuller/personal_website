@@ -71,4 +71,4 @@ user_groups:
 - Visitors
 ---
 
-I am an astrophysisist working on Supernovae doing cosmology (SNe Ia) and studying their physiccal parameters (SNe). Machine learning and artificial intelligence are some of the methods I use for my research.
+I am an astrophysicist working on Supernovae doing cosmology with Type Ia SNe and studying the physical parameters of Type II SNe. Machine learning and artificial intelligence are some of the methods I use for my research.
