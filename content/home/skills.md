@@ -43,7 +43,7 @@ subtitle = ""
   name = "Artificial Intelligence"
 
 [[feature]]
-  icon = "Language"
+  icon = "language"
   icon_pack = "fas"
   name = "Spanish/English/French"
 
