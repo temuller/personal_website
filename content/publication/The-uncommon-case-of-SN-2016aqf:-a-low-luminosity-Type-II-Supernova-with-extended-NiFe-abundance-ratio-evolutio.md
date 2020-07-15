@@ -16,9 +16,6 @@ publication_types = ["2"]
 
 authors = ["Tomás E. Müller Bravo, et al."]
 
-image = ""
-image_preview = ""
-
 publication = "Monthly Notices of the Royal Astronomical Society"
 publication_short = "MNRAS"
 
