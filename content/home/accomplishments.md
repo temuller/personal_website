@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
-title = "Accomplish&shy;ments"
+title = "Grants, Awards AND Fellowships"
 subtitle = ""
 
 # Date format
@@ -19,33 +19,33 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
-  url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
-  date_end = ""
-  description = ""
+  organization = "Agencia Nacional de Investigación y Desarrollo"
+  organization_url = "https://www.anid.cl/"
+  title = "Beca de Doctorado en el Extranjero, Becas Chile"
+  url = "https://www.conicyt.cl/becasconicyt/tag/becas-de-doctorado-en-el-extranjero/"
+#  certificate_url = ""
+  date_start = "2017-11-01"
+  date_end = "2021-10-31"
+#  description = ""
 
 [[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
+  organization = "Royal Astronomical Society"
+  organization_url = "https://ras.ac.uk/"
+  title = "RAS conference/meeting grant"
+#  url = ""
+#  certificate_url = ""
+  date_start = "2019"
   date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
+#  description = ""
   
 [[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
-  description = ""
+  organization = "LSSTC Data Science Fellowship program"
+  organization_url = "https://astrodatascience.org/"
+  title = "LSSTC Data Science Fellow "
+#  url = ""
+#  certificate_url = "https://www.datacamp.com"
+  date_start = "2016"
+  date_end = "20118"
+  description = "The LSSTC Data Science Fellowship program is a two year training program, designed to teach skills required for LSST science that are not easily addressed by current astrophysics programs."
 
 +++
