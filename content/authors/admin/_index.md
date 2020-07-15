@@ -15,7 +15,7 @@ role: PhD candidate in Astrophysics
 # Organizations/Affiliations
 organizations:
 - name: University of Southampton
-  url: ""
+  url: "https://www.southampton.ac.uk/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Supernovae, Cosmology and Data Science.
@@ -52,8 +52,8 @@ social:
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-3939-7167
-- icon: linkedin
-  icon_pack: ai
+- icon: linkedin-in
+  icon_pack: fab
   link: linkedin.com/in/tomás-müller-bravo-57a8731a9
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
