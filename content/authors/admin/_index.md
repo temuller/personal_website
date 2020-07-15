@@ -43,9 +43,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:t.e.muller-bravo@soton.ac.uk'  # For a direct email link, use "mailto:test@example.org".
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=8BwDBYoAAAAJ&hl=en
@@ -55,6 +52,9 @@ social:
 - icon: orcid
   icon_pack: ai
   link: https://orcid.org/0000-0003-3939-7167
+- icon: linkedin
+  icon_pack: ai
+  link: linkedin.com/in/tomás-müller-bravo-57a8731a9
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
