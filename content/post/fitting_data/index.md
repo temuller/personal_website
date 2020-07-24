@@ -1,9 +1,48 @@
 ---
-title: "Fitting Data"
+title: "Fitting Data - Basic implementation of Python packages"
 date: 2020-07-17
-tags: ["data science", "hugo"]
+tags: ["data science"]
 draft: false
 ---
+
+In this notebook I show some basic implementation of different Python packages for data fitting. The idea is to learn the different options there are out there so the reader can then study them in more detail if needed. Note that most of this packages have regular updates, so some of the examples shown below might be borken in the future.
+
+This notebook can be opened in [google colab](https://colab.research.google.com/) or [binder](https://mybinder.org/), but the packages will need to be installed before runnning it. This might take a minute or two.
+
+To open this notebook in google colab, click in the following icon: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/temuller/personal_website/blob/master/content/post/fitting_data/basic_fitting_routines.ipynb)
+
+To open this notebook on binder, click in the following icon: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/temuller/personal_website/master?filepath=content%2Fpost%2Ffitting_data%2Fbasic_fitting_routines.ipynb)
+
+```python
+# This are dependencies for `chainconsumer`, a package to draw contour plots, 
+# very similar to `corner`, but I like it better
+! sudo apt-get install texlive-latex-recommended 
+! sudo apt-get install dvipng texlive-latex-extra texlive-fonts-recommended  
+! wget http://mirrors.ctan.org/macros/latex/contrib/type1cm.zip 
+! unzip type1cm.zip -d /tmp/type1cm 
+! cd /tmp/type1cm/type1cm/ && sudo latex type1cm.ins
+! sudo mkdir /usr/share/texmf/tex/latex/type1cm 
+! sudo cp /tmp/type1cm/type1cm/type1cm.sty /usr/share/texmf/tex/latex/type1cm 
+! sudo texhash 
+!apt install cm-super
+```
+
+
+```python
+!pip install numpy
+!pip install matplotlib
+!pip install seaborn
+!pip install pandas
+!pip install scipy
+!pip install lmfit
+!pip install emcee
+!pip install pystan
+!pip install iminuit
+!pip install tensorflow
+!pip install keras
+!pip install multiprocessing
+!pip install chainconsumer
+```
 
 
 ```python
@@ -15,7 +54,7 @@ import pandas as pd
 import scipy
 import lmfit
 import emcee
-#import pymc3
+#import pymc3  # borken installation?
 import pystan
 import iminuit
 from iminuit.util import describe, make_func_code
@@ -32,9 +71,9 @@ sns.set(context='talk', style='white')
 np.random.seed(32)
 ```
 
-This example was taken from the `emcee` documentation.
+This example, which represents data taken from a line, was taken from the `emcee` documentation.
 
-To avoid correlation between parameters in this case, one would need to shift the x-axis by the mean value, but I will ommit that in here for simplicity.
+To avoid correlation between parameters in this case, one would need to shift the x-axis by the mean value, but I will ommit that in here for simplicity. I will only show how to implement the different packages.
 
 
 ```python
@@ -61,7 +100,7 @@ plt.show()
 ```
 
 
-![png](basic_fitting_routines_3_0.png)
+![png](basic_fitting_routines_6_0.png)
 
 
 ## scipy - minimize
@@ -96,7 +135,7 @@ print(f'b = {b_pred:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_5_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_8_0.png)
 
 
     m = -0.8139 (m_true = -0.9594)
@@ -134,7 +173,7 @@ print(f'b = {b_pred:.3f} +/- {b_std:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_7_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_10_0.png)
 
 
     m = -0.8139 +/- 0.0647 (m_true = -0.9594)
@@ -178,7 +217,7 @@ print(f'b = {b_pred:.3f} +/- {b_std:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_9_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_12_0.png)
 
 
     m = -0.8139 +/- 0.0127 (m_true = -0.9594)
@@ -223,7 +262,7 @@ print(f'b = {b_pred:.3f} +/- {b_std:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_11_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_14_0.png)
 
 
     m = -0.8605 +/- inf (m_true = -0.9594)
@@ -276,9 +315,20 @@ print(f'b = {b_pred:.3f} +/- ({b_std_min:.3f}, {b_std_max:.3f}) (b_true = {b_tru
 minu.draw_mncontour('m', 'b', nsigma=3)
 ```
 
+    /home/tomas/anaconda3/envs/pisco/lib/python3.6/site-packages/ipykernel_launcher.py:11: InitialParamWarning: Parameter m does not have initial value. Assume 0.
+      # This is added back by InteractiveShellApp.init_path()
+    /home/tomas/anaconda3/envs/pisco/lib/python3.6/site-packages/ipykernel_launcher.py:11: InitialParamWarning: Parameter m is floating but does not have initial step size. Assume 1.
+      # This is added back by InteractiveShellApp.init_path()
+    /home/tomas/anaconda3/envs/pisco/lib/python3.6/site-packages/ipykernel_launcher.py:11: InitialParamWarning: Parameter b does not have initial value. Assume 0.
+      # This is added back by InteractiveShellApp.init_path()
+    /home/tomas/anaconda3/envs/pisco/lib/python3.6/site-packages/ipykernel_launcher.py:11: InitialParamWarning: Parameter b is floating but does not have initial step size. Assume 1.
+      # This is added back by InteractiveShellApp.init_path()
+    /home/tomas/anaconda3/envs/pisco/lib/python3.6/site-packages/ipykernel_launcher.py:11: InitialParamWarning: errordef is not given. Default to 1.
+      # This is added back by InteractiveShellApp.init_path()
 
 
-![png](basic_fitting_routines_13_1.png)
+
+![png](basic_fitting_routines_files/basic_fitting_routines_16_1.png)
 
 
     Hesse
@@ -297,7 +347,7 @@ minu.draw_mncontour('m', 'b', nsigma=3)
 
 
 
-![png](basic_fitting_routines_13_4.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_16_4.png)
 
 
 ___
@@ -358,11 +408,11 @@ plt.show()
 ```
 
 
-![png](basic_fitting_routines_17_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_20_0.png)
 
 
 
-![png](basic_fitting_routines_17_1.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_20_1.png)
 
 
 
@@ -390,7 +440,7 @@ print(f'b = {b_pred:.4f} +/- ({b_std_min:.4f}, {b_std_max:.4f}) (b_true = {b_tru
 ```
 
 
-![png](basic_fitting_routines_18_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_21_0.png)
 
 
     m = -0.8131 +/- (0.0127, 0.0124) (m_true = -0.9594)
@@ -462,7 +512,7 @@ print(f'b = {b_pred:.3f} +/- {b_std:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_21_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_24_0.png)
 
 
     m = -0.7944 +/- 0.0828 (m_true = -0.9594)
@@ -484,11 +534,11 @@ plt.show()
 ```
 
 
-![png](basic_fitting_routines_22_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_25_0.png)
 
 
 
-![png](basic_fitting_routines_22_1.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_25_1.png)
 
 
 ## pymc3
@@ -526,13 +576,13 @@ pymc3.summary(trace).round(2)
 
 ## Other packages
 
-There are other packages for performing MCMC inference like: `Pyro/NumPyro`, `mici`, `TensorFlow Probability` and `Sampyl`.
+There are other packages for performing MCMC inference like: `Pyro/NumPyro`, `mici`, `TensorFlow Probability` and `Sampyl` (I might be missing a couple though). Feel free to check those as well.
 
 ___
 ___
-# Neural Networks regression
+# Artificial Neural Networks (ANN) regression
 
-The NN will fit the data without a given model. A proper fit would require training sets, testing sets and cross validation, but here only the most basic implementation is shown.
+The ANN will fit the data without a given model. A proper fit would require training sets, testing sets and cross validation, but here only the most basic implementation is shown. There is much more you can do with ANN.
 
 
 ```python
@@ -563,7 +613,7 @@ plt.show()
 ```
 
 
-![png](basic_fitting_routines_27_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_30_0.png)
 
 
 

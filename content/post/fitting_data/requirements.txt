@@ -1,0 +1,13 @@
+numpy
+matplotlib
+seaborn
+pandas
+scipy
+lmfit
+emcee
+pystan
+iminuit
+install tensorflow
+keras
+multiprocessing
+corner
