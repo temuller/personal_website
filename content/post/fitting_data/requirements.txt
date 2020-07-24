@@ -7,7 +7,7 @@ lmfit
 emcee
 pystan
 iminuit
-install tensorflow
 keras
+tensorflow
 multiprocessing
 corner
