@@ -7,42 +7,11 @@ draft: false
 
 In this notebook I show some basic implementation of different Python packages for data fitting. The idea is to learn the different options there are out there so the reader can then study them in more detail if needed. Note that most of this packages have regular updates, so some of the examples shown below might be borken in the future.
 
-This notebook can be opened in [google colab](https://colab.research.google.com/) or [binder](https://mybinder.org/), but the packages will need to be installed before runnning it. This might take a minute or two.
+This notebook can be opened on [google colab](https://colab.research.google.com/) or [binder](https://mybinder.org/). If for some reason there is a package missing, you will need to manually install it by running `!pip install <package>` in a cell.
 
-To open this notebook in google colab, click in the following icon: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/temuller/personal_website/blob/master/content/post/fitting_data/basic_fitting_routines.ipynb)
+To open this notebook on google colab, click in the following icon: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/temuller/personal_website/blob/master/content/post/fitting_data/basic_fitting_routines.ipynb)
 
 To open this notebook on binder, click in the following icon: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/temuller/personal_website/master?filepath=content%2Fpost%2Ffitting_data%2Fbasic_fitting_routines.ipynb)
-
-```python
-# This are dependencies for `chainconsumer`, a package to draw contour plots, 
-# very similar to `corner`, but I like it better
-! sudo apt-get install texlive-latex-recommended 
-! sudo apt-get install dvipng texlive-latex-extra texlive-fonts-recommended  
-! wget http://mirrors.ctan.org/macros/latex/contrib/type1cm.zip 
-! unzip type1cm.zip -d /tmp/type1cm 
-! cd /tmp/type1cm/type1cm/ && sudo latex type1cm.ins
-! sudo mkdir /usr/share/texmf/tex/latex/type1cm 
-! sudo cp /tmp/type1cm/type1cm/type1cm.sty /usr/share/texmf/tex/latex/type1cm 
-! sudo texhash 
-!apt install cm-super
-```
-
-
-```python
-!pip install numpy
-!pip install matplotlib
-!pip install seaborn
-!pip install pandas
-!pip install scipy
-!pip install lmfit
-!pip install emcee
-!pip install pystan
-!pip install iminuit
-!pip install tensorflow
-!pip install keras
-!pip install multiprocessing
-!pip install chainconsumer
-```
 
 
 ```python
@@ -63,7 +32,7 @@ from keras.layers import Dense, Activation
 from keras.models import Sequential
 
 from multiprocessing import Pool
-from chainconsumer import ChainConsumer
+import corner
 
 sns.set(context='talk', style='white')
 %config InlineBackend.figure_format = 'retina'
@@ -100,7 +69,7 @@ plt.show()
 ```
 
 
-![png](basic_fitting_routines_6_0.png)
+![png](basic_fitting_routines_4_0.png)
 
 
 ## scipy - minimize
@@ -135,7 +104,7 @@ print(f'b = {b_pred:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_8_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_6_0.png)
 
 
     m = -0.8139 (m_true = -0.9594)
@@ -173,7 +142,7 @@ print(f'b = {b_pred:.3f} +/- {b_std:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_10_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_8_0.png)
 
 
     m = -0.8139 +/- 0.0647 (m_true = -0.9594)
@@ -217,7 +186,7 @@ print(f'b = {b_pred:.3f} +/- {b_std:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_12_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_10_0.png)
 
 
     m = -0.8139 +/- 0.0127 (m_true = -0.9594)
@@ -262,7 +231,7 @@ print(f'b = {b_pred:.3f} +/- {b_std:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_14_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_12_0.png)
 
 
     m = -0.8605 +/- inf (m_true = -0.9594)
@@ -328,7 +297,7 @@ minu.draw_mncontour('m', 'b', nsigma=3)
 
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_16_1.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_14_1.png)
 
 
     Hesse
@@ -347,7 +316,7 @@ minu.draw_mncontour('m', 'b', nsigma=3)
 
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_16_4.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_14_4.png)
 
 
 ___
@@ -390,29 +359,34 @@ with Pool() as pool:
 samples = sampler.chain[:, 1000:, :].reshape((-1, ndim))
 ```
 
-    100%|██████████| 4000/4000 [00:13<00:00, 288.01it/s]
+    100%|██████████| 4000/4000 [00:54<00:00, 73.10it/s]
 
 
 
 ```python
-cc = ChainConsumer()
-cc.add_chain(samples, parameters=['m', 'b'])
+fig, axes = plt.subplots(ndim, figsize=(10, 5), sharex=True)
+labels = ["m", "b"]
 
-# plot chains
-fig = cc.plotter.plot_walks(truth={"m": m_true, "b": b_true}, convolve=100)
-plt.show()
+for i in range(ndim):
+    ax = axes[i]
+    ax.plot(samples[:, i], "k", alpha=0.6)
+    ax.set_xlim(0, len(samples))
+    ax.set_ylabel(labels[i])
+    ax.yaxis.set_label_coords(-0.1, 0.5)
 
-# plot contours
-fig = cc.plotter.plot(figsize=float(ndim), truth={"m": m_true, "b": b_true})
-plt.show()
+axes[-1].set_xlabel("step number");
+
+fig = corner.corner(
+    samples, labels=labels, truths=[m_true, b_true]
+);
 ```
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_20_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_18_0.png)
 
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_20_1.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_18_1.png)
 
 
 
@@ -440,7 +414,7 @@ print(f'b = {b_pred:.4f} +/- ({b_std_min:.4f}, {b_std_max:.4f}) (b_true = {b_tru
 ```
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_21_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_19_0.png)
 
 
     m = -0.8131 +/- (0.0127, 0.0124) (m_true = -0.9594)
@@ -512,7 +486,7 @@ print(f'b = {b_pred:.3f} +/- {b_std:.3f} (b_true = {b_true})')
 ```
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_24_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_22_0.png)
 
 
     m = -0.7944 +/- 0.0828 (m_true = -0.9594)
@@ -521,24 +495,31 @@ print(f'b = {b_pred:.3f} +/- {b_std:.3f} (b_true = {b_true})')
 
 
 ```python
-cc = ChainConsumer()
-cc.add_chain(np.array([m_trace, b_trace]).T, parameters=['m', 'b'])
+samples = np.array([m_trace, b_trace]).T
+                   
+fig, axes = plt.subplots(ndim, figsize=(10, 5), sharex=True)
+labels = ["m", "b"]
 
-# plot chains
-fig = cc.plotter.plot_walks(truth={"m": m_true, "b": b_true}, convolve=100)
-plt.show()
+for i in range(ndim):
+    ax = axes[i]
+    ax.plot(samples[:, i], "k", alpha=0.6)
+    ax.set_xlim(0, len(samples))
+    ax.set_ylabel(labels[i])
+    ax.yaxis.set_label_coords(-0.1, 0.5)
 
-# plot contours
-fig = cc.plotter.plot(figsize=float(ndim), truth={"m": m_true, "b": b_true})
-plt.show()
+axes[-1].set_xlabel("step number");
+
+fig = corner.corner(
+    samples, labels=labels, truths=[m_true, b_true]
+);
 ```
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_25_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_23_0.png)
 
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_25_1.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_23_1.png)
 
 
 ## pymc3
@@ -613,7 +594,7 @@ plt.show()
 ```
 
 
-![png](basic_fitting_routines_files/basic_fitting_routines_30_0.png)
+![png](basic_fitting_routines_files/basic_fitting_routines_28_0.png)
 
 
 
