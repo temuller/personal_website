@@ -9,5 +9,4 @@ pystan
 iminuit
 keras
 tensorflow
-multiprocessing
 corner
