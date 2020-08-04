@@ -31,7 +31,7 @@ education:
   - course: MSc in Astrophysics
     institution: Pontificia Universidad Católica de Chile
     year: 2017
-  - course: BSc in Physics
+  - course: BSc in Astronomy
     institution: Universidad de Chile
     year: 2015
 

@@ -5,8 +5,7 @@ tags: ["data science"]
 draft: false
 ---
 
-In this notebook I show some basic implementation of different Python packages for data fitting. The idea is to learn the different options there are out there so the reader can then study them in more detail if needed. Note that most of this packages have regular updates, so some of the examples shown below might be borken in the future.
-
+In this notebook I show some basic implementation of different Python packages for data fitting. The idea is to learn the different options there are out there so the reader can then study them in more detail if needed.
 This notebook can be opened on [google colab](https://colab.research.google.com/) or [binder](https://mybinder.org/). If for some reason there is a package missing, you will need to manually install it by running `!pip install <package>` in a cell.
 
 To open this notebook on google colab, click in the following icon: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/temuller/personal_website/blob/master/content/post/fitting_data/basic_fitting_routines.ipynb)

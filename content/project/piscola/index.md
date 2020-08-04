@@ -45,6 +45,6 @@ url_code = "https://github.com/temuller/piscola"
   focal_point = "Smart"
 +++
 
-This is a code I have developed as part of my PhD to fit Type Ia Supernovae light curves in a data-driven way using Gaussian Process. The post analysis is done with Non-negative Matrix Factorization, a machine learning approach to extract features/parameters from the rest-frame light curves to do cosmology.
+**P**ython for **I**ntelligent **S**upernova **CO**smology **L**ight-curve **A**nalysis (**PISCOLA**) is a code I have developed as part of my PhD to fit Type Ia Supernova light curves in a data-driven way using Gaussian Process. The post analysis is done with Non-negative Matrix Factorization, a machine learning approach to extract features/parameters from the rest-frame light curves in order to do cosmology.
 
 _Press the tag below to see more examples_

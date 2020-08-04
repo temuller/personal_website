@@ -29,7 +29,7 @@ url_pdf = ""
 url_slides = ""
 url_video = ""
 url_code = ""
-#links = [{name = "Website", url = "https://southampton-rsg.github.io/2018-04-12-southampton-swc/"}]
+links = [{name = "Website", url = "https://southampton-rsg.github.io/2018-04-12-southampton-swc/"}]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.

@@ -36,7 +36,7 @@ subtitle = ""
   icon = "robot"
   icon_pack = "fas"
   name = "Machine Learning"
-  description = "Machine learning for regression, outlier detection, classification, etc. LSSTD Data Science Fellow"
+  description = "Machine learning for regression, outlier detection, classification, etc. LSSTC Data Science Fellow"
 
 [[feature]]
   icon = "brain"
