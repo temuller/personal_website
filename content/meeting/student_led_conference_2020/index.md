@@ -48,7 +48,7 @@ links = [{name = "Website", url = "https://sites.google.com/view/the-big-data-er
 
 Every year a student-led conference that lasts for 2 and a half days is hosted at the University of Southampton which PGR students from SEPnet can attend to dig into the world of research conferences. I was the lead organizer in a committee of PGR students from the University of Southampton and University of Hertfordshire. Because of the COVID-19 pandemic we had to host a one-day conference online.
 
-Dates: Sep 7-8, 2020
+Dates: Sep 8, 2020
 
 [Conference website](https://sites.google.com/view/the-big-data-era-in-astronomy/home)
 
