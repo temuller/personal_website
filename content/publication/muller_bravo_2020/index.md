@@ -26,8 +26,8 @@ abstract = "Low-luminosity type II supernovae (LL SNe II) make up the low explos
 
 doi = "10.1093/mnras/staa1932"
 
-url_pdf = "https://watermark.silverchair.com/staa1932.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAtkwggLVBgkqhkiG9w0BBwagggLGMIICwgIBADCCArsGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMTmgMgkMuHsZALujnAgEQgIICjJmOoJik5DQ5sDoZLgfFNSXhdAnzQl3msLf7a7T1xYiEs0ij0EBFwe9JZG7sljOj9Tp77dtrO9Vyg5uSmBV6vG1x3UnwViOq2eknt6Q5HV4-_y0lb_a-latNK84U83URxH-uMboELUo_lz0njMWKRYVRaBzwEZws5J5dLa4mKdcfDAn9rsjCm5YXz_1LdHzmUrbVJMcry-nMfpII1PIiFbHeRsVWMzVVHlimIgcbpKc-4X8xzjCN-w9ByexxrnJdPBTvjlyLSrz8IEz7qjuXzOrfuVKAHo3TSJ9CXtA1WOxPhSpesfMBFX2Xm_BM5lwELLPSXuBV4HB4WkZ4l6pO1Kxk0-ThlUpYIbQZozeCT1L4P5PbaC6ZNdzEUvA6tKtSFZeBP9WfacKpGz-Q1Vf6uNL0Zf3G2MbhaiB2C8Ts2-vslevee4vWfdADOu8T94Rs5xpz7YtN9I1vjB8fWNMVKVLXgqYtYrFjCEuxJStsXhLeF9tbdd_beAeFbCOuIbU2LVpKV4BZGPh-H4v140mcOdGVD9RSWwJ2ioJ9V-0dh_M1RijuQI4_9fBtxw8usftlOzp3nb3uJE0W6QUDH3nyQnGtOB1yKiSuFHoYlu1dL4rgMbTRKRxOq2CruDRx89nskbG8FKrV3JUyS8_S-0_gdzj5QY66dtervAUXyJkjB6lH--EL40I7qgFOq3piqrJAVg0oAJprxPVAf-I7muOUOm0SUHIRadFa0MAbdxW-6Gv-EKtCQ0LLnddP_lblLXhnAJ0ZtVoQq54Zr5by_4nqOQuP7hzdEQfhvEDUfVWs32g_9VJNMWs3n2hQijk65h20ZYbcXn-gW1EsetQGuex8mufgSR9CQCcn2HfUm78"
-links = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2020MNRAS.tmp.2049M/abstract"}]
+url_pdf = "https://academic.oup.com/mnras/article-pdf/497/1/361/33524778/staa1932.pdf"
+links = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2020MNRAS.497..361M/abstract"}]
 
 url_code = ""
 url_dataset = ""
