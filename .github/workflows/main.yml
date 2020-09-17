@@ -25,7 +25,7 @@ jobs:
 
       - name: Build and deploy
         uses: victoriadrake/hugo-latest-cd@master
-        with:
-          external_repository: temuller/temuller.github.io
-          publish_dir: ./public
+        env:
+          EXTERNAL_REPOSITORY: temuller/temuller.github.io
+          PUBLISH_DIR: ./public
 
