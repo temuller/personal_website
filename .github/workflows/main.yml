@@ -1,0 +1,28 @@
+name: Automatic Deployment
+
+on:
+  push:
+    branches:
+    - master
+
+env:
+  TOKEN: ${{ secrets.TOKEN }}
+  EXTERNAL_REPOSITORY: temuller/temuller.github.io
+
+jobs:
+  deploy:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: true
+
+      - name: Setup hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.74.1"
+
+      - name: Build and deploy
+        uses: victoriadrake/hugo-latest-cd@master
+
