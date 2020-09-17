@@ -7,7 +7,7 @@ on:
 
 env:
   TOKEN: ${{ secrets.TOKEN }}
-  EXTERNAL_REPOSITORY: temuller/temuller.github.io
+#  EXTERNAL_REPOSITORY: temuller/temuller.github.io
 
 jobs:
   deploy:
@@ -25,4 +25,7 @@ jobs:
 
       - name: Build and deploy
         uses: victoriadrake/hugo-latest-cd@master
+        with:
+          external_repository: temuller/temuller.github.io
+          publish_dir: ./public
 
