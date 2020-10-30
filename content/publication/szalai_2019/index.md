@@ -16,8 +16,7 @@ publication_types = ["2"]
 
 authors = ["Szalai, Tamás", "Zsíros, Szanna", "Fox, Ori D.", "Pejcha, Ondřej", "**Müller, Tomás**"]
 
-publication = "The Astrophysical Journal"
-publication_short = "ApJ"
+publication = "The Astrophysical Journal Supplement Series, Volume 241, Issue 2, article id. 38, 35 pp. (2019)"
 
 # Does the content use Latex?
 math = true

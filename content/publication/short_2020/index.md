@@ -16,8 +16,7 @@ publication_types = ["2"]
 
 authors = [" Short, P.", "Nicholl, M.", "Lawrence, A.", "... Müller Bravo T. E. ..."]
 
-publication = "Monthly Notices of the Royal Astronomical Society"
-publication_short = "MNRAS"
+publication = "Monthly Notices of the Royal Astronomical Society, Volume 498, Issue 3, pp.4119-4133"
 
 # Does the content use Latex?
 math = true
@@ -26,7 +25,7 @@ abstract = "We present results from spectroscopic observations of AT 2018hyz, 
 
 doi = "10.1093/mnras/staa2065"
 
-url_pdf = "https://watermark.silverchair.com/staa2065.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAtswggLXBgkqhkiG9w0BBwagggLIMIICxAIBADCCAr0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMUPrxF3P0z_1GDHJRAgEQgIICjiipVWW5ho99uOqgBfrr11BJKdJ4OYgZZZNtFujaFk6LzWSYve1K8uLpPdKtDqMDc1eGmQ9FVXvImtatcjxCSUdKus6hcya0-PNNClTKSCpuMtmdhdZOOaExtzM_QHEV5NN9K4YkcB68QuLOuXuknoTxbMIIKbB18OOIUpdavE_Ankl-8yMPVnNrIeZ71W38GLzqJ---EqKlGZGUbALo1fBZnUNp7lgazvZK0Qm7sxiPJoABHoK8K5uDcZqZElZbnViMqotKKK_x4VRtZcxPMMDUMJUz18Y0kK7aujl7P0bMzWml7M0vAJBI0DBmtY4AC5P5y07KsZRp4yobCURCoCT_QCWuDQ3aWIVeL0UCfu0CmyXlyewewqCwqysLNScDvoJFMGDQZ8YA7ZkLGnWZ-6SNbDC_Kkx9VF_TtzHCb68Ng7AzxVBX7p9_7VBG56g9W9FWV58znZPDm9KAzOOqyRSAAz_RJVdSdew8QSbvSgLlw4QseSUI5Or_a0r5yWmGJp0KWEdPJRlHnOalEjwe7e50I2zh7Dm7kIWUK5l9quNrgEfmRtsILUNTbXa577ltiCxG25Kc0J7dR8xXH4EKo70PIUNPN-QNlcMvhMKEWPSM3zbUnGV8LzRfhGZBJ1-ihjkOffZbWCd97pUR93y1BARHrO29be4UpiXBzwx_1Yu8M8MISNn9CgigoXY_rcH06j5jsJpIwKrv-oN4U908o3EHTuZsF4Nd0DiQuR6t_6SEqszo5N43RdMJzeJyfqttj-TNpXIPkBdsI1gXxIPwgybLxDWjBBeoe3nl10GsBQy7igyfIddymOYIYdSojRP4wtmRFjnx8oWwu1kwNC6nALkiGXXKaer_-EP8ZFXMZg"
+url_pdf = "https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.498.4119S/PUB_PDF"
 links = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.4119S/abstract"}]
 
 url_code = ""

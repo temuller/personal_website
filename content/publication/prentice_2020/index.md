@@ -16,8 +16,7 @@ publication_types = ["2"]
 
 authors = [ " Prentice, S. J.", "Maguire, K.", "Boian, I.", "... Müller-Bravo T. E. ..."]
 
-publication = "Monthly Notices of the Royal Astronomical Society"
-publication_short = "MNRAS"
+publication = "Monthly Notices of the Royal Astronomical Society, Volume 499, Issue 1, pp.1450-1467"
 
 # Does the content use Latex?
 math = true
@@ -26,7 +25,7 @@ abstract = "We present the data and analysis of SN 2018gjx, an unusual low-lumi
 
 doi = "10.1093/mnras/staa2947"
 
-url_pdf = "https://arxiv.org/pdf/2009.10509.pdf"
+url_pdf = "https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.499.1450P/PUB_PDF"
 links = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2020MNRAS.tmp.2766P/abstract"}]
 
 url_code = ""

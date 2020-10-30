@@ -16,8 +16,7 @@ publication_types = ["2"]
 
 authors = ["Tomás E. Müller Bravo", "Claudia P Gutiérrez", "Mark Sullivan", "Anders Jerkstrand ..."]
 
-publication = "Monthly Notices of the Royal Astronomical Society"
-publication_short = "MNRAS"
+publication = "Monthly Notices of the Royal Astronomical Society, Volume 497, Issue 1, pp.361-377"
 
 # Does the content use Latex?
 math = true

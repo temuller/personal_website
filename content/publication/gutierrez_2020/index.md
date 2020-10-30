@@ -16,8 +16,7 @@ publication_types = ["2"]
 
 authors = [ "Gutiérrez, C. P.", "Pastorello, A.", "Jerkstrand, A.", "... Müller Bravo T. E. ..."]
 
-publication = "Monthly Notices of the Royal Astronomical Society"
-publication_short = "MNRAS"
+publication = "Monthly Notices of the Royal Astronomical Society, Volume 499, Issue 1, pp.974-992"
 
 # Does the content use Latex?
 math = true
@@ -26,7 +25,7 @@ abstract = "We present the photometric and spectroscopic evolution of the type I
 
 doi = "10.1093/mnras/staa2763"
 
-url_pdf = "https://arxiv.org/pdf/2008.09628.pdf"
+url_pdf = "https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.499..974G/PUB_PDF"
 links = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2020MNRAS.tmp.2720G/abstract"}]
 
 url_code = ""

@@ -16,8 +16,7 @@ publication_types = ["2"]
 
 authors = [ "Gomez, Sebastian", "Nicholl, Matt", "Short, Philip", "... Müller Bravo Tomás E. ..."]
 
-publication = "Monthly Notices of the Royal Astronomical Society"
-publication_short = "MNRAS"
+publication = "Monthly Notices of the Royal Astronomical Society, Volume 497, Issue 2, pp.1925-1934"
 
 # Does the content use Latex?
 math = true
@@ -26,7 +25,7 @@ abstract = "AT 2018hyz (= ASASSN-18zj) is a tidal disruption event (TDE) loca
 
 doi = "10.1093/mnras/staa2099"
 
-url_pdf = "https://watermark.silverchair.com/staa2099.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAAtkwggLVBgkqhkiG9w0BBwagggLGMIICwgIBADCCArsGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMcJs60jni6js4VqwYAgEQgIICjJaATeeGoCCRr2dDwcgYvQmEMkRCmzYHjzBi8F59BdyrEAAhb-OQFYcOSj25CInCKic4P14YtTWlSn4L4jILW9whLt-zAdk9F2NKAYj7Xvf4sW4YZ6qL7ZsI8kqmsULeaYudGhR-a1s8JdTzXS_nNdSepG2-MrjmTtAOkcuJluPYlRczYw2EdZUd2xnsJ4Jt5bC3HVqucbbLyM6kpF4rJvy6UbMTqJLJ9RHG9iHnaKWu-j-vCamdUG7n1GRitgbZzJbJJK0F3AquKs2zLXGsWw4krvWYihR3nFcCgtI2R4nLZv3JmJ8-46MOwlsvIB6fH-Ae91p1pMTJ0KsghyulQSD7vgIpAsVDdi0ENTDhVbq4nmsTks4A9w6nmmhcj8co2i_48P3EO3AGCE3C5gQB3uWPmsg9YqR6BUwnBZsMsoix7H5Dc6Y0rWVw6wMN3t6bA5tX60zJOYLufPSxtmcHREZZjGmPLqaML_xrUDtun6M3pj3v3KNnJrxu8daki-ssuLDWhjHWJaNhy60elOFYRvfZS4aS6uPDfsoT8k2jG2M6zhmaudRM3x6KNR0V2CEnHy4C7Iy7W3r7yBATH-2YSECmaLvD4LCbQWd99CImgHvN1g7pZRW100rd7hs8yJCxOsxaXj9kCV2Os5kfjppGcn5NnYN18MZkQJI2jzrOJXO5WBcOZKrT0jB_H6TkByayMek3OCn-k7L6CWfdd6OH4USK7XwDwVBXQzYCPriwmbcleCcMbmafTG7mIX0wFBbi9xvWC4Ne9q9WPu48z4ZWdvMjur00yBh0DnZNboYQBGOTHyB8YW7UNifXK8XPGHjIgpf0SCjh862VY5uESElR5RbqICKKq1etABc6NcY"
+url_pdf = "https://ui.adsabs.harvard.edu/link_gateway/2020MNRAS.497.1925G/PUB_PDF"
 links = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2020MNRAS.497.1925G/abstract"}]
 
 url_code = ""

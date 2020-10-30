@@ -16,8 +16,7 @@ publication_types = ["2"]
 
 authors = ["Kochanek, C. S.", "Fraser, M.", "Adams, S. M.", "Sukhbold, T.", "Prieto, J. L.", "**Müller T.** ..."]
 
-publication = "Monthly Notices of the Royal Astronomical Society"
-publication_short = "MNRAS"
+publication = "Monthly Notices of the Royal Astronomical Society, Volume 467, Issue 3, p.3347-3360"
 
 # Does the content use Latex?
 math = true
