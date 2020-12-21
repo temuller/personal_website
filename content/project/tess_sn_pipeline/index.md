@@ -1,13 +1,12 @@
 +++
 # Project title.
-#title = "Python for Intelligent Supernova-COsmology Light-curve Analysis"
-title = "PISCOLA"
+title = "TESS SN Pipeline"
 
 # Date this page was created.
-date = 2020-07-17T00:00:00
+date = 2020-01-01T00:00:00
 
 # Project summary to display on homepage.
-summary = "Type Ia supernova light curve fitting code"
+summary = "Pipeline for extracting supernova light curves with TESS data"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["royalties", "pcr"]`
@@ -28,7 +27,7 @@ external_link = ""
 url_pdf = ""
 url_slides = ""
 url_video = ""
-url_code = "https://github.com/temuller/piscola"
+url_code = "https://github.com/temuller/tess_sn_pipeline"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -45,6 +44,6 @@ url_code = "https://github.com/temuller/piscola"
   focal_point = "Smart"
 +++
 
-**P**ython for **I**ntelligent **S**upernova **CO**smology **L**ight-curve **A**nalysis (**PISCOLA**) is a code I have developed as part of my PhD to fit Type Ia supernova light curves in a data-driven way using Gaussian Process. The post analysis is done with Non-negative Matrix Factorization, a machine learning approach to extract features/parameters from the rest-frame light curves in order to do cosmology (Müller-Bravo et al., in prep.).
+The Transitin Exoplanet Survey Satellite (TESS) produces light curves with unprecedented cadence. This is ideal for studying supernovae, but there is not dedicated pipeline to extract and reduce the data of these transients. I have been working on this project with other people from the USA.
 
 _Press the tag below to see more examples_

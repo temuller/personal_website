@@ -30,13 +30,13 @@ subtitle = ""
   icon = "linux"
   icon_pack = "fab"
   name = "Linux"
-  description = "Experience with different Linux distros, but mainly with Ubuntu"
+  description = "Experience with different Linux distros"
 
 [[feature]]
   icon = "robot"
   icon_pack = "fas"
   name = "Machine Learning"
-  description = "Machine learning for regression, outlier detection, classification, etc. LSSTC Data Science Fellow"
+  description = "Machine learning for regression, outlier detection, classification, etc. Former LSSTC Data Science Fellow"
 
 [[feature]]
   icon = "brain"

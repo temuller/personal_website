@@ -23,11 +23,15 @@ bio: My research interests include Supernovae, Cosmology and Data Science.
 interests:
 - Supernovae
 - Cosmology
-- Artificial Intelligence
+- Transients
 - Data Science
+- Surveys Science
 
 education:
   courses:
+  - course: PhD in Astronomy
+    institution: University of Southampton
+    year: 2021 (expected date)
   - course: MSc in Astrophysics
     institution: Pontificia Universidad Católica de Chile
     year: 2017
@@ -71,4 +75,4 @@ user_groups:
 - Visitors
 ---
 
-I am an astrophysicist working on Supernovae doing cosmology with Type Ia SNe and studying the physical parameters of Type II SNe. Machine learning and artificial intelligence are some of the methods I use for my research.
+I am interested in Type Ia supernovae as distance indicators, the physics of Type II supernovae (like the explosion mechanism), and on other types of transients in general (e.g., peculiar supernovae, kilonovae, tidal disruption events, etc.). My interests also lie in data science (e.g. deep learning) and coding in Python. I am an active member of ePESSTO+ where I am incharge of the data-reduction pipeline. My current work focuses on PISCOLA, a data-driven type Ia supernova fitting code and on the light curve analysis to find an alternative parameterisation to improve the precision in distance measurements.
