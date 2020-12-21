@@ -67,5 +67,5 @@ subtitle = ""
  css_class = ""
 +++
 {{% alert note %}}
-For a complete list ADS publications I have been involed with, click [here](https://ui.adsabs.harvard.edu/public-libraries/0-q3Q81kQzmPtokaNf1cAg) or quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
+For a complete list of ADS publications I have been involved with, click [here](https://ui.adsabs.harvard.edu/public-libraries/0-q3Q81kQzmPtokaNf1cAg) or quickly discover relevant content by [filtering publications]({{< ref "/publication/_index.md" >}}).
 {{% /alert %}}
