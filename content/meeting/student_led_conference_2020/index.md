@@ -7,7 +7,7 @@ title = "The Big Data Era in Astronomy"
 date = 2020-09-08T00:00:00
 
 # Project summary to display on homepage.
-summary = "Student-led conference hosted at the University of Southampton ([Conference website](https://sites.google.com/view/the-big-data-era-in-astronomy/home))"
+summary = "Conference hosted at the University of Southampton ([Conference website](https://sites.google.com/view/the-big-data-era-in-astronomy/home))"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["royalties", "pcr"]`

@@ -7,11 +7,11 @@ title = "Hubble Tension Workshop"
 date = 2020-12-31T00:00:00
 
 # Project summary to display on homepage.
-summary = "Workshop to discuss the tension in the measured H0 value from different current methods ([Workshop website](xxx))"
+summary = "Workshop to discuss the tension in the measured H0 value from different current methods ([Workshop website](https://sites.google.com/view/a-hubble-tension-headache/home?authuser=0))"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["royalties", "pcr"]`
-tags = ["Software"]
+tags = ["Astro"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -47,8 +47,8 @@ url_code = ""
 
 A 3-days Workshop where researchers from all over the world showed their results from different observational and theoretical experiments to measure H0 and discuss possible biases that might lead to the tension between the measured values from the early and late Universe.
 
-Dates: Month xx-xx, 2020
+Dates: March 01-03, 2021
 
-[Workshop website](xxx)
+[Workshop website](https://sites.google.com/view/a-hubble-tension-headache/home?authuser=0)
 
 _Press the tag below to see more examples_

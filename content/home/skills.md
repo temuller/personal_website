@@ -36,13 +36,13 @@ subtitle = ""
   icon = "robot"
   icon_pack = "fas"
   name = "Machine Learning"
-  description = "Machine learning for regression, outlier detection, classification, etc. Former LSSTC Data Science Fellow"
+  description = "Machine and deep learning for regression, outlier detection, classification, etc. Former LSSTC Data Science Fellow"
 
-[[feature]]
-  icon = "brain"
-  icon_pack = "fas"
-  name = "Artificial Intelligence"
-  description = "Deep learning with Keras and Pytorch packages. Participation in Kaggle competitions"
+#[[feature]]
+#  icon = "brain"
+#  icon_pack = "fas"
+#  name = "Artificial Intelligence"
+#  description = "Deep learning with Keras and Pytorch packages. Participation in Kaggle competitions"
 
 [[feature]]
   icon = "language"
