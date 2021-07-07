@@ -1,17 +1,16 @@
 +++
 # Project title.
-#title = "Software Carpentry Workshop"
-title = "Hubble Tension Workshop"
+title = "TESSreduce"
 
 # Date this page was created.
-date = 2020-12-31T00:00:00
+date = 2020-01-01T00:00:00
 
 # Project summary to display on homepage.
-summary = "Workshop to discuss the tension in the measured H0 value from different current methods ([Workshop website](https://sites.google.com/view/a-hubble-tension-headache/home?authuser=0))"
+summary = "Pipeline for extracting supernova light curves with TESS data"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["royalties", "pcr"]`
-tags = ["Astro"]
+tags = ["Pipeline", "Supernova"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
@@ -28,7 +27,7 @@ external_link = ""
 url_pdf = ""
 url_slides = ""
 url_video = ""
-url_code = ""
+url_code = "https://github.com/CheerfulUser/TESSreduce"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -45,10 +44,6 @@ url_code = ""
   focal_point = "Smart"
 +++
 
-A 3-days Workshop where researchers from all over the world showed their results from different observational and theoretical experiments to measure H0 and discuss possible biases that might lead to the tension between the measured values from the early and late Universe.
-
-Dates: March 01-03, 2021
-
-[Workshop website](https://sites.google.com/view/a-hubble-tension-headache/home?authuser=0)
+The Transitin Exoplanet Survey Satellite (TESS) produces light curves with unprecedented cadence. This is ideal for studying supernovae, but there is not dedicated pipeline to extract and reduce the data of these transients. I have worked on this project, led by Ryan Ridden-Harper.
 
 _Press the tag below to see more examples_
