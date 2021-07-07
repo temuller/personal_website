@@ -4,7 +4,7 @@
 title = "Hubble Tension Workshop"
 
 # Date this page was created.
-date = 2021-03-1T00:00:00
+date = 2021-03-01T00:00:00
 
 # Project summary to display on homepage.
 summary = "Workshop to discuss the tension in the measured H0 value from different current methods ([Workshop website](https://sites.google.com/view/a-hubble-tension-headache/home?authuser=0))"

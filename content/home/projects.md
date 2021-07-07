@@ -32,6 +32,10 @@ subtitle = ""
    [[content.filter_button]]
      name = "Supernova"
      tag = "Supernova"
+
+   [[content.filter_button]]
+     name = "Pipeline"
+     tag = "Pipeline"
   
   # [[content.filter_button]]
   #   name = "Other"
