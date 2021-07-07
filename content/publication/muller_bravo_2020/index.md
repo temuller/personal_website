@@ -14,7 +14,7 @@ date = "2020-06-01"
 # 6 = Book chapter
 publication_types = ["2"]
 
-authors = ["Tomás E. Müller Bravo", "Claudia P Gutiérrez", "Mark Sullivan", "Anders Jerkstrand ..."]
+authors = ["Tomás E. Müller Bravo", "Claudia P Gutiérrez", "Mark Sullivan et al."]
 
 publication = "Monthly Notices of the Royal Astronomical Society, Volume 497, Issue 1, pp.361-377"
 
