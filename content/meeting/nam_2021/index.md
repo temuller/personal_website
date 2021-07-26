@@ -47,6 +47,8 @@ url_code = ""
 
 With the current plethora of all-sky surveys and upcoming next-generation facilities, (such as LSST, GOTO, TiDES, and SOXS), the area, depth, and cadence covered by the observations continue to improve. With these improvements comes an increasing number of poorly-understood events discovered such as tidal disruption events, Ca-rich transients, superluminous SNe, rapidly evolving transients, kilonovae, and other peculiar transients. Hence, an ever-increasing focus of the time-domain community is in exploring this diversity and populating the Luminosity-Timescale phase space with these and other “gap” transients and understanding their powering mechanisms, progenitors, and environments in which they are found, from an observational and theoretical point of view. These next-generation facilities will play a crucial role in exploring these issues. Therefore, the goal of this session is to create a space to foster collaboration and discuss these uncommon types of transients, what we have learnt about them, and how to direct future research, theoretical modelling and observations with the next-generation facilities towards a better understanding of them. As part of our commitment to improving the equality, diversity and inclusivity of our field, we will take active measures to provide a platform for scientists from groups that are typically underrepresented in astronomy, including but not limited to women as well as ethnic minorities. We also particularly encourage early career researchers to apply.
 
+Organisers: Tomás Enrique Müller Bravo, Mark Magee, Claudia Gutiérrez, Phil Wiseman, Matt Grayling, Chris Frohmaier, Shubham Srivastav
+
 Dates: July 23, 2021
 
 [Session website](https://nam2021.org/science/parallel-sessions/details/2/83)
