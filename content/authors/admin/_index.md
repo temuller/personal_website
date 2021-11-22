@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD candidate in Astrophysics
+role: postdoc
 
 # Organizations/Affiliations
 organizations:
-- name: University of Southampton
-  url: "https://www.southampton.ac.uk/"
+- name: Institute of Space Sciences (ICE-CSIC)
+  url: "https://www.ice.csic.es/en/home"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Supernovae, Cosmology and Data Science.
@@ -23,7 +23,7 @@ bio: My research interests include Supernovae, Cosmology and Data Science.
 interests:
 - Supernovae
 - Cosmology
-- Transients
+- Stellar Transients
 - Data Science
 - Surveys Science
 
@@ -31,7 +31,7 @@ education:
   courses:
   - course: PhD in Astronomy
     institution: University of Southampton
-    year: 2021 (expected date)
+    year: 2021
   - course: MSc in Astrophysics
     institution: Pontificia Universidad Católica de Chile
     year: 2017
@@ -46,7 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:t.e.muller-bravo@soton.ac.uk'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:t.e.muller-bravo@ice.csic.es'  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=8BwDBYoAAAAJ&hl=en
@@ -59,6 +59,9 @@ social:
 - icon: linkedin-in
   icon_pack: fab
   link: https://www.linkedin.com/in/tom%C3%A1s-m%C3%BCller-bravo-57a8731a9/
+- icon: file
+  icon_pack: fas
+  link: https://temuller.github.io/cv/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -75,4 +78,8 @@ user_groups:
 - Visitors
 ---
 
-I am interested in Type Ia supernovae as distance indicators, the physics of Type II supernovae (like the explosion mechanism), and on other types of transients in general (e.g., peculiar supernovae, kilonovae, tidal disruption events, etc.). My interests also lie in data science (e.g. deep learning) and coding in Python. I am an active member of ePESSTO+ where I am incharge of the data-reduction pipeline. My current work focuses on PISCOLA, a data-driven type Ia supernova fitting code and on the light curve analysis to find an alternative parameterisation to improve the precision in distance measurements.
+I am interested in type Ia supernovae as distance indicators, the physics of supernovae (like the explosion mechanism and progenitors), and other stellar transients in general (e.g., peculiar supernovae, kilonovae, tidal disruption events, etc.). My interests also lie in data science (e.g. deep learning) and coding in Python. 
+
+I am the author of the [PISCOLA](https://github.com/temuller/piscola/) light-curve fitter and an active member of [ePESSTO+](https://www.pessto.org/) where I am incharge of the data-reduction pipeline. Also check my [Astro-Visualization](https://temuller.github.io/astro-visualization/) website. See my [CV](https://temuller.github.io/cv/) for a more detailed description of my background.
+
+My current work focuses on using type Ia supernovae with near-infrared data to improve the measurement of the Hubble constant (H0) as part of the [HostFlows](https://hostflows.github.io/) project.
