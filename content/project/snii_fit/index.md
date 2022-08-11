@@ -10,7 +10,7 @@ summary = "Type II supernova fitting code"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["royalties", "pcr"]`
-tags = ["Supernova"]
+tags = ["Supernovae"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

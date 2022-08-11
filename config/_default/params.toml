@@ -89,12 +89,12 @@ show_related = {docs = true, page = false, post = true, project = true, publicat
 ############################
 
 # Enter contact details (optional). To hide a field, clear it to "".
-email = "t.e.muller-bravo@soton.ac.uk"
+email = "t.e.muller-bravo@ice.csic.es"
 #phone = "888 888 88 88"
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "University Road", city = "Southampton", region = "Hampshire", postcode = "SO17 1BJ", country = "United Kingdom", country_code = "UK"}
+address = {street = "Carrer de Can Magrans", city = "Barcelona", region = "", postcode = "08193", country = "Spain", country_code = "ES"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
@@ -141,7 +141,7 @@ twitter = ""
 #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
 date_format = "Jan 2, 2006"
 #   Examples: "3:04 pm" or "15:04"
-time_format = "3:04 PM"
+time_format = "15:04"
 
 # Address format (choose from the [address_formats] list below or add you own to the list).
 address_format = "en-gb"

@@ -1,19 +1,20 @@
 +++
 # Project title.
-title = "DES 3YR sample analysis with PISCOLA"
+#title = "Python for Intelligent Supernova-COsmology Light-curve Analysis"
+title = "HostPhot"
 
 # Date this page was created.
-date = 2021-07-21T00:00:00
+date = 2020-07-17T00:00:00
 
 # Project summary to display on homepage.
-summary = "Cosmological analysis of the DES 3YR sample with PISCOLA, expanding the analysis of my first paper."
+summary = "Global and local photometry of galaxies hosting supernovae or other transients"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["royalties", "pcr"]`
-tags = ["Machine Learning", "Supernova"]
+tags = ["Galaxies", "Supernovae"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "https://temuller.github.io/des_analysis/intro.html"
+external_link = ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -27,7 +28,7 @@ external_link = "https://temuller.github.io/des_analysis/intro.html"
 url_pdf = ""
 url_slides = ""
 url_video = ""
-url_code = "https://temuller.github.io/des_analysis/intro.html"
+url_code = "https://github.com/temuller/hostphot"
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
@@ -44,6 +45,6 @@ url_code = "https://temuller.github.io/des_analysis/intro.html"
   focal_point = "Smart"
 +++
 
-Here I present the analisys of DES SNe with PISCOLA. The idea of this book is to show the whole process of working in a project and making the whole analysis as transparent as possible.
+I have developed HostPhot during my postdoc at ICE, Barcelona, with the help of Lluís Galbany. The main purpose of this code is to do local and global photometry for the host galaxy of SNe Ia, although it can be used for other purposes.
 
 _Press the tag below to see more examples_

@@ -10,7 +10,7 @@ summary = "ePESSTO+ data-reduction pipeline"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["royalties", "pcr"]`
-tags = ["Pipeline", "Supernova"]
+tags = ["Pipeline", "Supernovae"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

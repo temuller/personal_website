@@ -26,8 +26,12 @@ subtitle = ""
   tag = "*"
   
    [[content.filter_button]]
-     name = "Supernova"
-     tag = "Supernova"
+     name = "Supernovae"
+     tag = "Supernovae"
+     
+   [[content.filter_button]]
+     name = "Galaxies"
+     tag = "Galaxies"
 
    [[content.filter_button]]
      name = "Machine Learning"

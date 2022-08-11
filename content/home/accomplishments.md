@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "Agencia Estatal de Investigación"
+  organization_url = "https://www.aei.gob.es/en"
+  title = "Juan de la Cierva-formación fellowship"
+  url = "https://www.aei.gob.es/en/announcements/announcements-finder/ayudas-contratos-juan-cierva-formacion-2021"
+  certificate_url = ""
+  date_start = "2023-01-01"
+  date_end = "2024-12-31"
+  description = "Spanish fellowship for early-career postdoctoral researchers"
+  
+[[item]]
   organization = "Agencia Nacional de Investigación y Desarrollo"
   organization_url = "https://www.anid.cl/"
   title = "Beca de Doctorado en el Extranjero, Becas Chile"

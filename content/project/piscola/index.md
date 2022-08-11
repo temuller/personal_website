@@ -11,7 +11,7 @@ summary = "Type Ia supernova light curve fitting code"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["royalties", "pcr"]`
-tags = ["Machine Learning", "Supernova"]
+tags = ["Machine Learning", "Supernovae"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""
