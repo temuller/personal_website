@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: postdoc
+role: postdoctoral researcher
 
 # Organizations/Affiliations
 organizations:
@@ -78,8 +78,10 @@ user_groups:
 - Visitors
 ---
 
-My interestes lie in type Ia supernovae as distance indicators, the physics of supernovae (like the explosion mechanism and progenitors), and other stellar transients in general (e.g., peculiar supernovae, kilonovae, tidal disruption events, etc.). I am also interested in data science (e.g. deep learning) and coding in Python. 
+My interestes lie in supernovae as distance indicators (cosmology), the physics of supernovae (such as explosion mechanism and progenitors), and other stellar transients in general (e.g., kilonovae, tidal disruption events, etc.). I am also interested in machine learning and coding in Python. 
 
-I am the author of the [PISCOLA](https://github.com/temuller/piscola/) light-curve fitter, [HostPhot](https://github.com/temuller/hostphot) and an active member of [ePESSTO+](https://www.pessto.org/) where I am incharge of the [data-reduction pipeline](https://github.com/svalenti/pessto). Also check my [Astro-Visualization](https://temuller.github.io/astro-visualization/) website. See my [CV](https://temuller.github.io/cv/) for a more detailed description of my background.
+I am the developer of the [PISCOLA](https://github.com/temuller/piscola/) transient light-curve fitter and [HostPhot](https://github.com/temuller/hostphot) for galaxy photometry, and am an active member of collaborations such as [ePESSTO+](https://www.pessto.org/) and [POSIE](https://poise.obs.carnegiescience.edu/). 
 
-Currently, I am a postdoc at the Institute of Space Sciences (ICE-CSIC) in Barcelona, Spain. My current work focuses on using type Ia supernovae with near-infrared data to test the current standard cosmological model as part of the [HostFlows](https://hostflows.github.io/) project.
+Currently, I am a postdoctoral researcher at the Institute of Space Sciences (ICE-CSIC) in Barcelona, Spain. At the moment, my work focuses on using type Ia supernovae with near-infrared data to test the current standard cosmological model as part of the [HostFlows](https://hostflows.github.io/) project and exploring alternative methods with type II supernovae for cosmology. 
+
+For more information, check my [CV](https://temuller.github.io/cv/).

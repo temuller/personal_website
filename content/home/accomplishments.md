@@ -26,7 +26,17 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2023-01-01"
   date_end = "2024-12-31"
-  description = "Spanish fellowship for early-career postdoctoral researchers"
+  description = "Spanish fellowship for postdoctoral researchers"
+  
+[[item]]
+  organization = "Institute of Space Sciences"
+  organization_url = "https://www.ice.csic.es/"
+  title = "Best paper by a postdoctoral researcher"
+  url = ""
+  certificate_url = ""
+  date_start = "2023-01-01"
+  date_end = ""
+  description = "Best postdoc paper chosen by fellow researchers"
   
 [[item]]
   organization = "Agencia Nacional de Investigación y Desarrollo"
@@ -36,7 +46,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2017-11-01"
   date_end = "2021-10-31"
-  description = "PhD Scholarship from the chilean government"
+  description = "Chilean Scholarship for PhD studies abroad"
 
 [[item]]
   organization = "Royal Astronomical Society"

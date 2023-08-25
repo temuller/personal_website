@@ -18,13 +18,13 @@ subtitle = ""
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  description = "Advance coding with Python (pandas, astropy, scikit-learn, etc.) including Open Source software development and JOSS referee"
+  description = "Advance coding with Python (pandas, astropy, scikit-learn, etc.) including open-source software development and [JOSS](https://joss.theoj.org/) referee"
   
 [[feature]]
   icon = "chart-line"
   icon_pack = "fas"
   name = "Statistics"
-  description = "Experience with different statistical tools (e.g., Bayesian analysis)"
+  description = "Experience with different data-analysis and statistical tools (e.g., Bayesian analysis)"
   
 [[feature]]
   icon = "linux"
@@ -36,7 +36,7 @@ subtitle = ""
   icon = "robot"
   icon_pack = "fas"
   name = "Machine Learning"
-  description = "Machine and deep learning for regression, outlier detection, classification, etc. Former LSSTC Data Science Fellow"
+  description = "Machine and deep learning for regression, outlier detection, classification, etc. Former [LSSTC Data Science Fellow](https://www.lsstcorporation.org/lincc/fellowship_program)"
 
 #[[feature]]
 #  icon = "brain"
@@ -48,13 +48,13 @@ subtitle = ""
   icon = "language"
   icon_pack = "fas"
   name = "Languages"
-  description = "Spanish (native), English (fluent) and French (basic)"
+  description = "Spanish (native), English (fluent), French (basic) and Catalan (basic)"
 
 [[feature]]
   icon = "drum"
   icon_pack = "fas"
   name = "Drums"
-  description = "I love playing the drums, it is one of my hobbies. Let me know if you want to jam!"
+  description = "I love playing the drums, it is one of my hobbies. Checkout my band [Time Illusions](https://www.instagram.com/timeillusions_official/)!"
 
 # Uncomment to use emoji icons.
 # [[feature]]

@@ -26,7 +26,7 @@ abstract = "Forthcoming time-domain surveys, such as the Rubin Observatory Legac
 doi = "10.1093/mnras/stab3065"
 
 url_pdf = "https://academic.oup.com/mnras/advance-article/doi/10.1093/mnras/stab3065/6408493"
-links = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2021MNRAS.tmp.2778M/abstract"}]
+links = [{name = "ADS", url = "https://ui.adsabs.harvard.edu/abs/2022MNRAS.512.3266M"}]
 
 url_code = ""
 url_dataset = ""
