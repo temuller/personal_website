@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position
-role: postdoctoral researcher
+role: Research Fellow
 
 # Organizations/Affiliations
 organizations:
-- name: Institute of Space Sciences (ICE-CSIC)
-  url: "https://www.ice.csic.es/en/home"
+- name: Trinity College Dublin (TCD)
+  url: "https://www.tcd.ie/physics/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include Supernovae, Cosmology and Data Science.
@@ -38,6 +38,12 @@ education:
   - course: BSc in Astronomy
     institution: Universidad de Chile
     year: 2015
+    
+work:
+  courses:
+  - course: Postdoctoral Researcher
+    institution: Institute of Space Sciences (ICE-CSIC)
+    year: 2024
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -46,7 +52,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:t.e.muller-bravo@ice.csic.es'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:t.e.muller-bravo@tcd.ie'  # For a direct email link, use "mailto:test@example.org".
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com/citations?user=8BwDBYoAAAAJ&hl=en
@@ -80,8 +86,8 @@ user_groups:
 
 My interestes lie in supernovae as distance indicators (cosmology), the physics of supernovae (such as explosion mechanism and progenitors), and other stellar transients in general (e.g., kilonovae, tidal disruption events, etc.). I am also interested in machine learning and coding in Python. 
 
-I am the developer of the [PISCOLA](https://github.com/temuller/piscola/) transient light-curve fitter and [HostPhot](https://github.com/temuller/hostphot) for galaxy photometry, and am an active member of collaborations such as [ePESSTO+](https://www.pessto.org/) and [POSIE](https://poise.obs.carnegiescience.edu/). 
+I am the developer of the [PISCOLA](https://github.com/temuller/piscola/) transient light-curve fitter and [HostPhot](https://github.com/temuller/hostphot) for galaxy photometry, and I am an active member in collaborations such as [ePESSTO+](https://www.pessto.org/), [POSIE](https://poise.obs.carnegiescience.edu/), [ZTF](https://www.ztf.caltech.edu/) and SAINTS. 
 
-Currently, I am a postdoctoral researcher at the Institute of Space Sciences (ICE-CSIC) in Barcelona, Spain. At the moment, my work focuses on using type Ia supernovae with near-infrared data to test the current standard cosmological model as part of the [HostFlows](https://hostflows.github.io/) project and exploring alternative methods with type II supernovae for cosmology. 
+Currently, I am a research fellow at Trinity College Dublin (TCD) and previously was a postdoctoral researcher at the Institute of Space Sciences (ICE-CSIC) in Barcelona, Spain. At the moment, my work focuses on using type Ia supernovae with near-infrared data to test the current standard cosmological model as part of the [Aarhus-Barcelona Flows](https://flows.phys.au.dk/) project and SAINTS collaboration. 
 
 For more information, check my [CV](https://temuller.github.io/cv/).
